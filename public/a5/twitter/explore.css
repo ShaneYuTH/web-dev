@@ -1,0 +1,134 @@
+.wd-has-search .form-control {
+    padding-left: 2.375rem;
+    border-radius: 500px;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.wd-has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #6c757d;
+    background-color: transparent;
+}
+.wd-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 3.2vw;
+}
+.wd-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.wd-border-color {
+    border-color: #2f3336;
+}
+.wd-fg-color-textgray {
+    color: #6e767d;
+}
+.wd-Tweet-button {
+    border-radius: 500px;
+    min-width: 100%;
+    background-color: #1d9bf0;
+    color: white;
+    font-weight: bolder;
+}
+.wd-who-to-follow {
+    background-color: #16181c;
+    color: white;
+}
+.wd-Follow-button {
+    border-radius: 500px;
+    width: auto;
+    background-color: white;
+    color: #34393e;
+    font-weight: bolder;
+    margin-left: -20px;
+}
+
+.wd-fa-stack-shrink {
+    font-size: 0.5em;
+}
+.wd-fa-icon-larger {
+    font-size: 1.5em;
+}
+
+.wd-fa-stack-align-left {
+    position: relative;
+    left: -3px;
+}
+
+.wd-setting-align-left {
+    position: relative;
+    left: -7px;
+}
+
+.wd-text-align-right {
+    position: relative;
+    left: 14px;
+}
+
+.list-group.override-bs .list-group-item{
+    background-color: black;
+    color: white;
+}
+.list-group.override-bs .active{
+    background-color: black;
+    font-weight: bolder;
+    border: none;
+}
+
+
+.nav-tabs.override-bs {
+    border-bottom: none;
+}
+.nav-tabs.override-bs .nav-item {
+    color: #6c757d;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+.nav-tabs.override-bs .active {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.wd-blue-text-color {
+    color: #1e76b3;
+}
+
+.wd-image-position {
+    position: relative;
+    left: -12px;
+}
+
+.wd-link-decoration {
+    color: white;
+    text-decoration: none;
+}
+
+.wd-underline {
+    border-bottom: 4px solid;
+    border-color: #1d9bf0;
+    padding-bottom: 12px;
+}
+
+.wd-smaller-thumbnail {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.img-thumbnail.override-bs {
+    width: 75%;
+}
