@@ -1,5 +1,5 @@
 const curLink = window.location.pathname;
-console.log(curLink);
+// console.log(curLink);
 
 const NavigationItem = (navlink) => {
     return(`
