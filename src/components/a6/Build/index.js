@@ -11,6 +11,9 @@ const Build = () => {
         </Link>|
         <Link to="/a6/practice">
           Practice
+        </Link>|
+        <Link to="/history">
+          History
         </Link>
       </>
   );

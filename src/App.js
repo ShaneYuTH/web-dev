@@ -8,6 +8,7 @@ import './App.css';
 import {BrowserRouter, Route} from "react-router-dom";
 import HomeScreen from "./components/a6/Build/HomeScreen/HomeScreen";
 import ExploreScreen from "./components/a6/Build/ExploreScreen/ExploreScreen";
+import History from "./components/history";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
 
               <Route path="/a6/twitter/home" component={HomeScreen}/>
               <Route path="/a6/twitter/explore" component={ExploreScreen}/>
+              <Route path="/history" component={History}/>
 
           </div>
       </BrowserRouter>
