@@ -3,7 +3,7 @@ const PostItem = (post) => {
         <div class="list-group-item border-secondary">
             <div class="row">
                 <div class="col-1 pl-2 pr-0 pt-1">
-                    <img src="${post.profileImage}" class="img-fluid im rounded-circle">
+                    <img src="${post.profileImage}" class="img-fluid rounded-circle">
                 </div>
                 <div class="col-11">
                     <div class="row">
