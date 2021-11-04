@@ -32,7 +32,7 @@ const ProfileHeader = () => {
                     <img className="rounded-circle img-fluid wd-profile-avatar-image" src={owner.profilePicture} alt="profilePic"/>
                     <div className="wd-profile-text">
                         <div className="row fw-bolder text-white">
-                            {owner.firstName} {owner.lastName}
+                            {owner.name}
                         </div>
                         <div className="row text-secondary">
                             @{owner.handle}
