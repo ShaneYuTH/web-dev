@@ -16,14 +16,8 @@ const History = () => {
               <li><a href="a5/build/ExploreScreen/explore.html">a5 Build</a></li>
           </ul>
 
-          <Link to="/a6/practice">
-              Practice
-          </Link>|
-          <Link to="/a6/twitter/home">
-              Build
-          </Link>|
-          <Link to="/history">
-              History
+          <Link to="/a7/practice">
+              Back
           </Link>
       </div>
   );
