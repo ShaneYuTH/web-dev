@@ -12,6 +12,13 @@ const PreviousReactAssignment = () => {
             <Link to="/">
                 Back
             </Link>
+            <h3>A7 Practice</h3>
+            <Link to="/a7/practice">
+                Practice
+            </Link>|
+            <Link to="/">
+                Back
+            </Link>
         </>
     );
 };

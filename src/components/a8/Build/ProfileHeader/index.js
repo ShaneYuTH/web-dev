@@ -41,7 +41,7 @@ const ProfileHeader = () => {
 
                 </div>
                 <div className="col-3 py-2 px-3">
-                    <NavLink exact to={"/a7/twitter/profile-edit"}>
+                    <NavLink exact to={"/a8/twitter/profile-edit"}>
                         <button
                             className="btn btn-outline-secondary rounded-pill bg-transparent text-white fw-bolder text-nowrap">
                             Edit profile

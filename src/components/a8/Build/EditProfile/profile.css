@@ -9,6 +9,5 @@
 }
 
 .wd-profile-text {
-    margin-left: 75px;
+    transform: translateX(-35%) translateY(200%);
 }
-
