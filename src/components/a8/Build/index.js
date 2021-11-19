@@ -4,9 +4,9 @@ import ExploreScreen from "./ExploreScreen/ExploreScreen";
 import HomeScreen from "./HomeScreen";
 import ProfileScreen from "./ProfileScreen";
 import EditProfileScreen from "./EditProfileScreen";
-import who from "../../../reducers/who";
-import tweets from "../../../reducers/tweets";
-import profile from "../../../reducers/profile";
+import who from "../reducers/who";
+import tweets from "../reducers/tweets";
+import profile from "../reducers/profile";
 import {combineReducers, createStore} from "redux";
 import {Provider} from "react-redux";
 

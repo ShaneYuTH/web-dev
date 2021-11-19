@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import './profile.css';
 import {useSelector, useDispatch} from "react-redux";
 import {NavLink} from "react-router-dom";
+import {updateProfile} from "../../../../services/profileService";
 
 const selectUser = (state) => state.profile;
 
@@ -9,19 +10,20 @@ const EditProfile = () => {
     const dispatch = useDispatch();
     const owner = useSelector(selectUser);
 
-    let [name, setName] = useState(owner.name);
-    let [bio, setBio] = useState(owner.bio);
-    let [location, setLocation] = useState(owner.location);
-    let [website, setWebsite] = useState(owner.website);
-    let [birthDate, setBirthDate] = useState(owner.dateOfBirth);
+    const [name, setName] = useState(owner.name);
+    const [bio, setBio] = useState(owner.bio);
+    const [location, setLocation] = useState(owner.location);
+    const [website, setWebsite] = useState(owner.website);
+    const [birthDate, setBirthDate] = useState(owner.dateOfBirth);
 
     const saveProfileClickHandler = () => {
-        dispatch({type: 'change-profile',
-            newName: name,
-            newBio: bio,
-            newLocation: location,
-            newWebsite: website,
-            newBirthDate: birthDate
+        updateProfile(dispatch, {
+            ...owner,
+            name: name,
+            bio: bio,
+            website: website,
+            location: location,
+            dateOfBirth: birthDate,
         });
     }
 

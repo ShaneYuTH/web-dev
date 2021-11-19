@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import ReduxExamples from "./ReduxExamples/components";
+import APIExamples from "./APIExamples";
 
 const Practice = () => {
   return(
@@ -15,10 +16,10 @@ const Practice = () => {
           <Link to="/history/react">
               Previous React
           </Link>
+          <APIExamples/>
           <ReduxExamples/>
       </>
   );
-
 };
 
 export default Practice;

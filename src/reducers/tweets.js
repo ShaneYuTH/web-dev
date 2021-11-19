@@ -2,6 +2,7 @@ import posts from './data/tweets.json';
 
 const tweets = (state = posts, action) => {
     switch (action.type) {
+
         case 'create-tweet':
             const tweet = {
                 _id: (new Date()).getTime() + '',
