@@ -1,4 +1,4 @@
-const PROFILE_API = 'https://radiant-bayou-49942.herokuapp.com/api/profile';
+const PROFILE_API = 'http://localhost:4000/rest/profile';
 
 export const fetchProfile = (dispatch) => {
     fetch(PROFILE_API)

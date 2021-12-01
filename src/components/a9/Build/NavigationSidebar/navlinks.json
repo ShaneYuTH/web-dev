@@ -1,0 +1,11 @@
+[
+    {   "text": "", "link": "/a9", "iconClass": "fab fa-twitter" },
+    {   "text": "Home", "link": "/a9/twitter/home", "iconClass": "fas fa-home" },
+    {   "text": "Explore", "link": "/a9/twitter/explore", "iconClass": "fas fa-hashtag" },
+    {   "text": "Notification", "link": "/a9/twitter/notification", "iconClass": "fas fa-bell" },
+    {   "text": "Messages", "link": "/a9/twitter/messages", "iconClass": "fas fa-envelope" },
+    {   "text": "Bookmarks", "link": "/a9/twitter/bookmarks", "iconClass": "fas fa-bookmark" },
+    {   "text": "Lists", "link": "/a9/twitter/lists", "iconClass": "fas fa-list" },
+    {   "text": "Profile", "link": "/a9/twitter/profile", "iconClass": "fas fa-user" },
+    {   "text": "More", "link": "/a9/twitter/more", "iconClass": "fas fa-circle" }
+]

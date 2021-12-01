@@ -1,0 +1,14 @@
+.wd-profile-avatar-image {
+    width: 150px;
+    float: left;
+    position: relative;
+    border: thick solid black;
+    border-radius: 100%;
+    top: -60px;
+    left: 10px;
+}
+
+.wd-profile-text {
+    margin-left: 75px;
+}
+
